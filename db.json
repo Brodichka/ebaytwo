@@ -1,6 +1,18 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "users": []
+=======
+    "users": [
+        {
+            "id": 2,
+            "name": "Sergiy" ,
+            "surname": "Machuk" ,
+            "photo_url": "https://st3.depositphotos.com/2927609/13310/v/450/depositphotos_133108764-stock-illustration-question-mark-vector-illustration.jpg",
+            "balanse": 2000
+        }        
+    ]
+>>>>>>> 16a80647cbd7b237caa7ad3cc43c2b1ffdb80d11
 =======
   "users": [
     "id": 1,
