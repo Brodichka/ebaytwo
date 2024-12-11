@@ -1,3 +1,13 @@
 {
+<<<<<<< HEAD
   "users": []
+=======
+  "users": [
+    "id": 1,
+      "name":"Arsen"
+      "surname":"Khvorostianyi"
+      "photo_url":"https://avatars.githubusercontent.com/u/189883139?s=400&u=4c61bae3702be777e4e5e6941ffc54154d7735ff&v=4"
+      "balance": 2200000000000
+  ]
+>>>>>>> c625ba43fc0536665d64f47453342f961b4b5db5
 }
