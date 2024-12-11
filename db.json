@@ -12,6 +12,7 @@
             "name":"Arsen",
             "surname":"Khvorostianyi",
             "photo_url":"https://avatars.githubusercontent.com/u/189883139?s=400&u=4c61bae3702be777e4e5e6941ffc54154d7735ff&v=4",
+<<<<<<< HEAD
             "balance": 15000
         }
     ],
@@ -26,5 +27,21 @@
         "name": "bread",
         "cost": "20"
     }
+=======
+            "balance": 1500
+        }
+    ],
+  "products": [
+      {
+    "id": 3,
+      "name":"Kvas",
+      "cost":30
+      }
+      {
+      "id": 4,
+          "name":"Sushi",
+          "cost":220
+      }
+>>>>>>> fa9fcbc7e4f11c2694fe35d1c7cf45f26432772b
   ]
 }
