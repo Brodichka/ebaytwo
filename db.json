@@ -6,7 +6,7 @@
             "surname": "Machuk" ,
             "photo_url": "https://st3.depositphotos.com/2927609/13310/v/450/depositphotos_133108764-stock-illustration-question-mark-vector-illustration.jpg",
             "balanse": 20000
-        }     
+        },    
         {
             "id": 1,
             "name":"Arsen",
@@ -21,27 +21,22 @@
         "id": 1,
         "name": "butter",
         "cost": "40"
-    }
+    },
     {
         "id": 2,
         "name": "bread",
         "cost": "20"
+    },
+    {
+        "id": 3,
+        "name":"Kvas",
+        "cost":30
+    },
+    {
+        "id": 4,
+        "name":"Sushi",
+        "cost":220
     }
 
-            "balance": 1500
-        }
-    ],
-  "products": [
-      {
-    "id": 3,
-      "name":"Kvas",
-      "cost":30
-      }
-      {
-      "id": 4,
-          "name":"Sushi",
-          "cost":220
-      }
-
-  ]
+  ],
 }
