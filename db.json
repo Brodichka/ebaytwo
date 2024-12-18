@@ -1,42 +1,41 @@
 {
-    "users": [
-        {
-            "id": 2,
-            "name": "Sergiy" ,
-            "surname": "Machuk" ,
-            "photo_url": "https://st3.depositphotos.com/2927609/13310/v/450/depositphotos_133108764-stock-illustration-question-mark-vector-illustration.jpg",
-            "balanse": 20000
-        },    
-        {
-            "id": 1,
-            "name":"Arsen",
-            "surname":"Khvorostianyi",
-            "photo_url":"https://avatars.githubusercontent.com/u/189883139?s=400&u=4c61bae3702be777e4e5e6941ffc54154d7735ff&v=4",
+  "users": [
+    {
+      "id": 2,
+      "name": "Sergiy",
+      "surname": "Machuk",
+      "photo_url": "https://st3.depositphotos.com/2927609/13310/v/450/depositphotos_133108764-stock-illustration-question-mark-vector-illustration.jpg",
+      "balanse": 20000
+    },
+    {
+      "id": 1,
+      "name": "Arsen",
+      "surname": "Khvorostianyi",
+      "photo_url": "https://avatars.githubusercontent.com/u/189883139?s=400&u=4c61bae3702be777e4e5e6941ffc54154d7735ff&v=4",
 
-            "balance": 15000
-        }
-    ],
+      "balance": 15000
+    }
+  ],
   "products": [
     {
-        "id": 1,
-        "name": "butter",
-        "cost": "40"
+      "id": 1,
+      "name": "butter",
+      "cost": "40"
     },
     {
-        "id": 2,
-        "name": "bread",
-        "cost": "20"
+      "id": 2,
+      "name": "bread",
+      "cost": "20"
     },
     {
-        "id": 3,
-        "name":"Kvas",
-        "cost":30
+      "id": 3,
+      "name": "Kvas",
+      "cost": 30
     },
     {
-        "id": 4,
-        "name":"Sushi",
-        "cost":220
+      "id": 4,
+      "name": "Sushi",
+      "cost": 220
     }
-
-  ],
+  ]
 }
