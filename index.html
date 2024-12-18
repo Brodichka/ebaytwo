@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superheroes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        .hero-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 200px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .hero-card img {
+            width: 100%;
+            height: auto;
+        }
+        .hero-card h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        // Fetch data from the API
+        fetch('https://akabab.github.io/superhero-api/api/all.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.body;
+                
+                // Display the first 10 superheroes
+                data.slice(0, 100).forEach(hero => {
+                    const heroCard = document.createElement('div');
+                    heroCard.className = 'hero-card';
+
+                    heroCard.innerHTML = `
+                        <img src="${hero.images.md}" alt="${hero.name}">
+                        <h3>${hero.name}</h3>
+                    `;
+
+                    container.appendChild(heroCard);
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+
+</body>
+</html>
+
